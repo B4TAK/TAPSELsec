@@ -10,7 +10,7 @@ ku='\033[33;1m' #kuning
 # Recode? Nggk punya Otak lu!!!
 #Capek anjing buat nya
 echo
-3c36525fd000eaa49797c9dfbc169d91
+python2 password.py
 clear
 echo $cy"SUBCRIBE CHANNEL : MR.F4K3 YT"
 echo $cy"LINK CHANNEL : bit.ly/FakeYT"
