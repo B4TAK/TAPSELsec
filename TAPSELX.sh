@@ -11,6 +11,35 @@ ku='\033[33;1m' #kuning
 #Capek anjing buat nya
 echo
 clear
+echo $ku"Apakah kamu ingin menginstall bahan (y/n?)"
+read conf
+
+if [ $conf = y]
+then
+clear
+pkg install python2 -y
+pip2 install urllib3 chardet certifi idna requests
+pkg install git -y
+pip2 install mechanize
+pkg install curl
+pip2 install termcolor
+pkg install ruby
+pkg install gem
+gem install lolcat
+pip2 install lolcat
+pkg install openssl
+pkg install php -y
+pkg install perl
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install figlet -y
+pkg install nano
+clear
+fi
+if [ $conf = n ]
+then
+clear
+fi
 echo $cy"SUBCRIBE CHANNEL : MR.F4K3 YT"
 echo $cy"LINK CHANNEL : bit.ly/FakeYT"
 echo $cy"WA : 081260032271"
