@@ -11,10 +11,14 @@ ku='\033[33;1m' #kuning
 #Capek anjing buat nya
 echo
 clear
+echo $me"PERHATIAN!!"
+echo $ku"Ketik y jika belum menginstall bahan"
+echo $ku"Ketik n jika sudah menginstall bahan"
+echo
 echo $ku"Apakah kamu ingin menginstall bahan (y/n?)"
 read conf
 
-if [ $conf = y]
+if [ $conf = y ]
 then
 clear
 pkg install python2 -y
