@@ -29,6 +29,9 @@ pkg install curl
 pip2 install termcolor
 pkg install ruby
 pkg install gem
+pip2 install requests
+pip2 install cookiejar
+pip2 install bs4
 gem install lolcat
 pip2 install lolcat
 pkg install openssl
